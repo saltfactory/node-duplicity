@@ -1,0 +1,40 @@
+{
+  "name": "node-duplicity",
+  "version": "0.0.1",
+  "description": "Duplicity node cli",
+  "main": "./lib/duplicity",
+  "bin":{
+    "mark2html":"./bin/duplicity.js"
+  },
+  "scripts": {
+    "test": "duplicity-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saltfactory/node-duplicity.git"
+  },
+  "keywords": [
+    "duplicity",
+    "backup",
+    "encrypt",
+    "gnupg"
+  ],
+  "author": {
+    "name": "SungKwang Song",
+    "email": "saltfactory@gmail.com",
+    "url": "https://twitter.com/saltfactory"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saltfactory/node-duplicity/issues",
+    "email": "saltfactory@gmail.com"
+  },
+  "homepage": "https://github.com/saltfactory/node-duplicity",
+  "devDependencies":{
+  },
+  "dependencies": {
+    "commander":"latest",
+    "shelljs":"latest",
+    "nodemailer":"latest"
+  }
+}
